@@ -1,0 +1,3 @@
+[16-Jul-2020 16:52:43 Asia/Jakarta] PHP Warning:  include(template/default/tinfo.inc.php): failed to open stream: No such file or directory in /home/k7627930/public_html/demosetiadi/sysconfig.inc.php on line 167
+[16-Jul-2020 16:52:43 Asia/Jakarta] PHP Warning:  include(template/default/tinfo.inc.php): failed to open stream: No such file or directory in /home/k7627930/public_html/demosetiadi/sysconfig.inc.php on line 167
+[16-Jul-2020 16:52:43 Asia/Jakarta] PHP Warning:  include(): Failed opening 'template/default/tinfo.inc.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/k7627930/public_html/demosetiadi/sysconfig.inc.php on line 167
