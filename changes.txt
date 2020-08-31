@@ -22,6 +22,44 @@ Frozen : The developer decide yet the codename.
 ==============================================
 Release Status Current : 
 
+"InBuild" with codename "Walanae"
+
+========================================================================
+Setiadi 3 Changelog
+========================================================================
+
+++++++++++++++++++++
+Update in 31-08-2020
+++++++++++++++++++++
+Added	: Update Template Setiadi2 Walanae
+Added	: Add Student ID
+Added : Add Contact Email
+Added : Add Supervisor
+Added : Add Examiner
+Added : Add Contributor
+Added : Add Code Ministry / Kode Prodi PDDIKTI
+Fixed : Update Date Type
+Added : Add Copyright
+Added : Add License
+Added : Add URL Croosref
+Added : Add Send Notification Email Approved
+Added : Add Masterfile Supervisor
+Added : Add Masterfile Examiner
+Added : Add Masterfile Code Ministry
+Added : Add Masterfile license
+Update : Detail Template Biblio
+Update : Sidebar Right 
+Update : Sidebar Left
+
+
+
+
+
+==============================================
+
+==============================================
+Release Status Current : 
+
 "InBuild" with codename "Lukulo"
 
 ========================================================================
