@@ -327,7 +327,7 @@ $sysconf['currencies'] = array( array('0', 'NONE'), 'Rupiah', 'USD', 'Euro', 'DM
 $sysconf['reserve_expire_periode'] = 7;
 
 /* CONTENT */
-$sysconf['library_name'] = 'SETIADI';
+$sysconf['library_name'] = 'SETIADI 3 Release Candidate';
 $sysconf['library_subname'] = 'Senayan Sistem Elektronik Tesis dan Disertasi';
 $sysconf['page_footer'] = ' <strong>Senayan Sistem Elektronik Tesis dan Disertasi (SETIADI)</strong> - Tim Pengembang SETIADI - Released Under GNU GPL License';
 
@@ -352,7 +352,7 @@ $sysconf['allow_pdf_download'] = true; # only work with 'zviewer'
 # Image watermarking
 $sysconf['watermark']['enable'] = false;
 $sysconf['watermark']['type'] = 'image'; # 'text' or 'image'
-$sysconf['watermark']['text'] = 'Senayan Library Management System';
+$sysconf['watermark']['text'] = 'Senayan Sistem Elektronik Tesis dan Disertasi';
 $sysconf['watermark']['image'] = '../../images/default/watermark.png';
 $sysconf['watermark']['sizeoftext'] = '5'; # range 1 - 5
 $sysconf['watermark']['alignment'] = 'BR'; #BR, BL, TR, TL, C, R, L, T, B, where B=bottom, T=top, L=left, R=right, C=centre
@@ -493,9 +493,9 @@ $sysconf['mail']['enable'] = true;
 $sysconf['mail']['server'] = 'ssl://smtp.gmail.com:465'; // SMTP server
 $sysconf['mail']['server_port'] = 465; // the SMTP port
 $sysconf['mail']['auth_enable'] = true; // enable SMTP authentication
-$sysconf['mail']['auth_username'] = 'helpdesk.lib@unsyiah.ac.id'; // SMTP account username 
-$sysconf['mail']['auth_password'] = 'pu5t4k4tolong'; // SMTP account password
-$sysconf['mail']['from'] = 'helpdesk.lib@unsyiah.ac.id';
+$sysconf['mail']['auth_username'] = 'abcd@gmail.com'; // SMTP account username 
+$sysconf['mail']['auth_password'] = '123abc'; // SMTP account password
+$sysconf['mail']['from'] = 'xyz@gmail.com';
 $sysconf['mail']['from_name'] = 'Senayan Elektronik Theses and Disertation';
 $sysconf['mail']['reply_to'] = &$sysconf['mail']['from'];
 $sysconf['mail']['reply_to_name'] = &$sysconf['mail']['from_name'];
@@ -528,10 +528,10 @@ $sysconf['ipaccess']['smc-serialcontrol'] = 'all';
 
 // OAI-PMH settings
 $sysconf['OAI']['enable'] = true;
-$sysconf['OAI']['identifierPrefix'] = 'oai:slims/';
+$sysconf['OAI']['identifierPrefix'] = 'oai:setiadi/';
 $sysconf['OAI']['Identify']['baseURL'] = 'http://'.@$_SERVER['SERVER_NAME'].':'.@$_SERVER['SERVER_PORT'].SWB.'oai.php';
 $sysconf['OAI']['Identify']['repositoryName'] = 'SETIADI OAI-PMh';
-$sysconf['OAI']['Identify']['adminEmail'] = 'admin@slims.web.id';
+$sysconf['OAI']['Identify']['adminEmail'] = 'admin@slimswtd.id';
 $sysconf['OAI']['Identify']['granularity'] = 'YYYY-MM-DDThh:mm:ssZ';
 $sysconf['OAI']['Identify']['deletedRecord'] = 'transient';
 $sysconf['OAI']['Identify']['metadataPolicy'] = '';
