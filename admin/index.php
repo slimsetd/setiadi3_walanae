@@ -41,8 +41,8 @@ if ($sysconf['https_enable']) {
 }
 
 // page title
-$page_title = $sysconf['library_name'].' :: Library Automation System';
-$page_title = $sysconf['library_subname'].' :: Library Automation System';
+$page_title = $sysconf['library_name'].' :: Open Source ETD System';
+$page_title = $sysconf['library_subname'].' :: Open Source ETD System';
 // main menu
 $module = new module();
 $module->setModulesDir(MDLBS);
