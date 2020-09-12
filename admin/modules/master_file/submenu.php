@@ -32,6 +32,7 @@ $menu[] = array(__('Dosen Pembimbing'), MWB.'master_file/supervisor.php', __('Do
 $menu[] = array(__('Dosen Penguji'), MWB.'master_file/examiner.php', __('Document Examiners'));
 $menu[] = array(__('Subject'), MWB.'master_file/topic.php', __('Subject'));
 $menu[] = array(__('Location'), MWB.'master_file/location.php', __('Item Location'));
+$menu[] = array(__('Item Type'), MWB.'master_file/item_type.php', __('Item Type'));
 $menu[] = array(__('Code Ministry PDDIKTI'), MWB.'master_file/code_ministry.php', __('Code Ministry PDDIKTI'));
 $menu[] = array(__('License'), MWB.'master_file/license.php', __('License'));
 $menu[] = array('Header', __('Lookup Files'));
