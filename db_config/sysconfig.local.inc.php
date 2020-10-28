@@ -31,9 +31,9 @@ if (!defined('INDEX_AUTH')) {
 // database constant
 // change below setting according to your database configuration
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'k7627930_demosetiadiv3');
-define('DB_USERNAME', 'k7627930_unggahM');
-define('DB_PASSWORD', '2018LukuloSetiadi2');
+define('DB_NAME', 'setiadi3_walanae');
+define('DB_USERNAME', 'chrisna');
+define('DB_PASSWORD', 'chrisna12');
 
 // define any other sysconfig variables below
 $sysconf['index']['type'] = 'default';
