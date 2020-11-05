@@ -220,7 +220,7 @@ if (isset($_POST['detail']) or (isset($_GET['action']) and $_GET['action'] == 'd
             'mc.name_prodi AS \'' . __('Name Prodi') . '\'',
             'mc.university AS \'' . __('University') . '\'',            
             'mc.degree AS \'' . __('Degree') . '\'',
-            'mc.last_update AS \'' . __('Last Update') . '\'',
+            'mc.last_update AS \'' . __('Last Update') . '\''
         );
     } else {
         $datagrid->setSQLColumn(
